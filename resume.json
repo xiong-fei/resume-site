@@ -1,99 +1,187 @@
 {
   "meta": {
-    "title": "你的名字 · 个人简历",
-    "description": "个人在线简历",
-    "keywords": "简历,resume",
-    "author": "你的名字"
+    "title": "熊飞 · Java 开发工程师",
+    "description": "熊飞的个人简历 · Java 后端开发工程师，专注微服务架构、分布式系统与大数据平台开发",
+    "keywords": "熊飞, Java, 后端开发, 微服务, 分布式, 大数据",
+    "author": "熊飞"
   },
   "basic": {
-    "name": "你的昵称",
-    "realName": "你的姓名",
-    "alias": "your-alias",
-    "avatar": "avatar.svg",
-    "status": "在职 · 看机会",
-    "tag": "20XX 届 · 本科",
-    "headline": "前端开发 · 全栈开发 · 技术写作",
+    "name": "熊飞",
+    "realName": "Xiong Fei",
+    "alias": "xiong-fei",
+    "avatar": "avatar.png",
+    "status": "2.5 年+ Java 后端开发经验",
+    "tag": "27 岁 · 硕士研究生",
+    "headline": "Java 后端开发 · 微服务架构 · 分布式系统 · 大数据平台",
     "contacts": [
-      { "type": "location", "icon": "ti-map-pin", "label": "城市" },
-      { "type": "email", "icon": "ti-mail", "label": "you@example.com", "href": "mailto:you@example.com", "copyable": true },
-      { "type": "wechat", "icon": "ti-brand-wechat", "label": "your-wechat", "copyable": true },
-      { "type": "link", "icon": "ti-brand-github", "label": "GitHub", "href": "https://github.com/yourname" },
-      { "type": "link", "icon": "ti-world", "label": "个人主页", "href": "https://example.com" }
+      { "type": "location", "icon": "ti-map-pin", "label": "北京" },
+      { "type": "email", "icon": "ti-mail", "label": "2501652708@qq.com", "href": "mailto:2501652708@qq.com", "copyable": true },
+      { "type": "phone", "icon": "ti-phone", "label": "192-8095-2854", "copyable": true },
+      { "type": "link", "icon": "ti-brand-gitee", "label": "Gitee", "href": "https://gitee.com/xiong--fei" }
     ]
   },
+
+  "highlights": [
+    {
+      "icon": "ti-topology-star-3",
+      "title": "微服务与分布式架构",
+      "desc": "精通 SpringCloud / Dubbo / Nacos / Seata 等主流组件，具备从技术选型、架构设计到核心模块落地的完整实战经验，支撑多系统高可用、高扩展。"
+    },
+    {
+      "icon": "ti-database",
+      "title": "大数据与实时链路",
+      "desc": "基于 Kafka 实时消费 + ClickHouse 时序存储 + XXL-Job 阈值计算构建秒级告警链路，落地 7 天 / 30 天历史数据动态阈值算法。"
+    },
+    {
+      "icon": "ti-shield-check",
+      "title": "国产化全链路适配",
+      "desc": "主导国家级农业平台国产化改造，完成操作系统、中间件到数据库的全链路替代，解决麒麟系统兼容、跨库语法适配与分布式缓存一致性问题。"
+    }
+  ],
+
   "summary": {
     "title": "个人简介",
-    "content": "这里写 2-4 句话的自我介绍：你是谁、擅长什么、做过什么、想找什么样的机会。建议控制在 120 字以内，突出可量化的成果。"
+    "content": "2.5 年+ Java 后端全流程开发经验，深耕智慧农业与大数据平台领域，参与多个国家级农业项目核心开发。扎实掌握 Java 核心技术及主流开源框架，深入理解 MySQL、Redis 底层原理，具备优秀的 SQL 调优、缓存设计与分布式问题解决能力。拥有从需求拆解、技术选型到项目交付的完整经验，注重技术积累与业务结合，兼具技术落地能力与业务理解能力。"
   },
+
   "skills": [
     {
-      "category": "前端",
-      "items": ["HTML / CSS / JavaScript", "Vue 3 / React", "Vite / Webpack", "TypeScript"]
+      "icon": "ti-code",
+      "category": "核心语言与框架",
+      "items": ["Java", "Python", "SpringBoot", "SpringCloud", "SpringCloudAlibaba", "MyBatis", "MyBatis-Plus", "Dubbo", "Feign", "Nacos", "Seata", "Sentinel", "Satoken", "Ruoyi-Cloud-Plus"],
+      "note": "微服务全家桶实战，熟悉服务注册发现、配置中心、分布式事务与限流熔断"
     },
     {
-      "category": "后端",
-      "items": ["Node.js / Express", "Python / FastAPI", "PostgreSQL / MySQL", "Redis"]
+      "icon": "ti-database",
+      "category": "数据库与缓存",
+      "items": ["MySQL", "达梦", "SQL Server", "PostgreSQL", "ClickHouse", "TDEngine", "Redis", "Tendis", "Guava Cache", "Caffeine"],
+      "note": "熟悉 MySQL 事务 / 索引 / SQL 调优，熟悉 Redis 线程模型、持久化与分布式锁"
     },
     {
-      "category": "工具与协作",
-      "items": ["Git / GitHub Actions", "Docker", "Figma", "Linux"]
+      "icon": "ti-arrows-shuffle",
+      "category": "中间件与调度",
+      "items": ["Kafka", "RocketMQ", "XXL-Job", "SnailJob", "MinIO", "ElasticSearch", "Canal", "Sharding-JDBC", "SuperMap"],
+      "note": "Kafka 实时消费、RocketMQ 事务消息落地实战，分库分表与增量数据同步"
+    },
+    {
+      "icon": "ti-server",
+      "category": "运维与其他",
+      "items": ["Linux", "麒麟系统", "Docker", "Nginx", "Tengine", "Git", "Maven", "DDDD 方法论", "区块链 (Rust/Solidity)", "AI 辅助编码 VibeCoding"],
+      "note": "国产化环境部署与全链路适配，了解 AI 辅助编码工具链"
     }
   ],
+
   "experiences": [
     {
-      "company": "公司名称",
-      "role": "职位名称",
-      "period": "2024.07 - 至今",
-      "location": "城市",
+      "company": "北京农芯科技有限责任公司",
+      "role": "Java 开发工程师",
+      "period": "2024.03 - 至今",
+      "location": "北京",
+      "summary": "负责农业领域国家级大数据平台、智慧农业系统后端核心模块开发，参与技术选型、性能优化及全链路国产化适配改造，主导多源数据融合与业务核心功能落地。",
       "highlights": [
-        "负责 XXX 系统的前端开发，独立完成 12 个页面模块，上线后首月日活 3000+",
-        "重构旧版表单组件，代码量减少 40%，首屏加载从 2.1s 降到 0.8s",
-        "与后端协作设计接口协议，推动 3 个跨部门项目按期交付"
+        {
+          "title": "全国土壤墒情监测平台",
+          "desc": "围绕土壤水分、气象、作物生长多维度数据，开发数据填报、站点管理、数据查看、数据服务等核心模块，支撑农业生产指导、旱涝灾害预警与科学水资源管理，适配全国多地区农业监测场景。",
+          "tech": ["SnailJob", "SpringCloud", "Dubbo", "Feign", "SQL Server", "MySQL", "MyBatis-Plus", "TDEngine", "Ruoyi-Cloud-Plus"]
+        },
+        {
+          "title": "全国土壤墒情监测项目 · 国产化改造（主导）",
+          "desc": "完成从操作系统、中间件到数据库的全链路国产化替代部署，解决麒麟系统下组件兼容、跨数据库语法适配、分布式缓存一致性等问题，实现平台在国产化环境下稳定运行，支撑全国农业监测站点数据正常采集与分析。",
+          "tech": ["麒麟系统", "Docker", "Kafka", "RocketMQ", "达梦数据库", "MySQL", "Nacos", "Redis", "Tendis", "Nginx", "Tengine", "MinIO"]
+        },
+        {
+          "title": "粮棉作物高水效农业智慧决策平台",
+          "desc": "基于 SpringCloud 微服务架构搭建全国棉粮灌区智慧农业平台，完成实时数据采集、农水信息监测、灌区需水预报、农业用水效率评价等核心功能，为农业生产智能决策提供数据支撑。",
+          "tech": ["SpringCloud", "MySQL", "Nacos", "Feign", "Dubbo", "MinIO", "SnailJob", "MyBatis-Plus", "SuperMap", "Ruoyi-Cloud-Plus"]
+        },
+        {
+          "title": "肥料全产业链大数据平台",
+          "desc": "实现肥料生产、登记备案、流通、施用、质量监督等全环节数据的采集、清洗、存储与整合，构建肥料全产业链专题数据库，支撑肥料产业数字化转型与行业监管。",
+          "tech": ["达梦", "MySQL", "Nacos", "Redis", "MinIO", "Ruoyi-Cloud-Plus", "Python"]
+        }
       ]
     },
     {
-      "company": "上一家公司",
-      "role": "实习职位",
-      "period": "2023.09 - 2024.06",
-      "location": "城市",
+      "company": "大连东软集团研发部",
+      "role": "Java 开发工程师",
+      "period": "2023.09 - 2024.03",
+      "location": "大连",
+      "summary": "参与大数据智能告警系统开发，负责实时数据处理、动态阈值计算、告警判断核心模块的开发与优化，保障系统高实时性、高准确性，支撑通信行业设备智能监控。",
       "highlights": [
-        "参与 XXX 功能开发，负责数据看板模块，支撑运营团队日常数据分析",
-        "编写 20+ 个通用组件，复用于 4 个项目，减少重复开发约 30%"
+        {
+          "title": "中国移动湖北 / 广东动态阈值系统",
+          "desc": "设计并实现「Kafka 实时消费 → ClickHouse 时序存储 → XXL-Job 阈值计算 → Redis 缓存 → 实时告警」核心业务流程，基于 7 天 / 30 天历史数据完成动态阈值算法落地，支撑移动湖北、广东分公司机房设备监控与智能告警。告警响应延迟控制在秒级，提升设备监控智能化水平，减少人工巡检成本。",
+          "tech": ["PostgreSQL", "ClickHouse", "SpringBoot", "Redis", "Kafka", "XXL-Job"]
+        }
       ]
     }
   ],
+
   "projects": [
     {
-      "name": "项目名称",
-      "role": "独立开发",
-      "period": "2025.03 - 2025.06",
-      "description": "一句话说明项目做什么、解决什么问题。",
-      "tech": ["Vue 3", "TypeScript", "Node.js", "SQLite"],
+      "name": "Club 社区",
+      "alias": "程序员专属沟通交流社区",
+      "role": "个人开源项目",
+      "period": "2024.06 - 2024.12",
+      "description": "独立开发面向程序员的专属沟通交流社区，采用微服务架构设计，针对程序员行业信息差问题，打造「知识积累 - 面试刷题 - 模拟面试 - 简历分析」一站式能力提升平台。",
       "highlights": [
-        "支持 XXX 功能，累计服务 500+ 用户",
-        "开源地址：github.com/xxx/xxx（Star 200+）"
+        "基于 FutureTask 与 CompletableFuture 实现分类标签的并发查询，性能提升 80%",
+        "使用 ThreadLocal 配合网关拦截器、Feign 拦截器封装用户上下文全局工具",
+        "针对高并发接口，采用 Guava 本地缓存配合函数式编程、泛型封装本地缓存工具，兼顾性能与通用性",
+        "基于 Redis ZSet 实现实时排行榜，解决传统数据库大量交互的瓶颈",
+        "选取 XXL-Job 配合 Redis Hash 实现点赞收藏的开发及数据持久化，减轻数据库交互压力",
+        "使用 WebSocket 实现前后端实时信息推送，扩展心跳机制与连接鉴权",
+        "采用 DFA 算法封装敏感词工具，实现发布内容毫秒级检测，支持大量内容",
+        "对接阿里百炼大模型，实现 AI 出题、AI 评分，优化 HTTP 工具性能"
       ],
-      "link": "https://github.com/yourname/project"
+      "tech": ["MySQL", "Redis", "Jenkins", "XXL-Job", "Nacos", "Satoken", "Feign", "Gateway", "MyBatis", "ElasticSearch"],
+      "link": "https://gitee.com/xiong--fei"
     },
     {
-      "name": "第二个项目",
-      "role": "核心开发",
-      "period": "2024.11 - 2025.02",
-      "description": "项目背景与你的贡献。",
-      "tech": ["React", "Tailwind CSS", "Supabase"],
+      "name": "数字藏品交易平台",
+      "alias": "虚拟数字藏品交易 APP 后端",
+      "role": "个人开源项目",
+      "period": "2025.01 - 2025.06",
+      "description": "独立开发虚拟数字藏品交易 APP 后端，基于第三方区块链服务实现数字财产链上转移，开发藏品铸造、发售、空投、秒杀、转售等核心功能，支撑生肖、星座、新年等多系列数字藏品上线运营。",
       "highlights": [
-        "实现 XXX，性能提升 XX%"
+        "设计高并发秒杀方案，解决藏品发售过程中的超卖、重复下单、接口限流等问题",
+        "对接联盟链（文昌链），实现藏品的铸造、上链等操作",
+        "优化订单超时关单任务，引入基于 XXL-Job + 线程池的方案，关单性能从 10 单/s 提升到 50 单/秒",
+        "引入雪花算法 + Redis 自增 ID，实现唯一订单号生成",
+        "引入 ElasticSearch 解决管理人员订单查询性能问题，并解决深分页"
       ],
+      "tech": ["SpringBoot", "Redis", "SpringCloud", "RocketMQ", "ElasticSearch", "Dubbo"],
+      "link": "https://gitee.com/xiong--fei"
+    },
+    {
+      "name": "Velax 区块链",
+      "alias": "校内科研项目 · 公链架构分析",
+      "role": "科研项目",
+      "period": "2022.09 - 2023.03",
+      "description": "基于以太坊 2.0 对 Solana 链上 Velas-chain 公链进行全架构分析，完成 Rust 文件解析、注释及核心流程绘制，梳理公链底层运行逻辑与架构设计。",
+      "highlights": [
+        "完成 Velas-chain 公链全部 Rust 文件解析与核心流程绘制，梳理底层运行逻辑与架构",
+        "以虚拟货币交易为研究基础，基于 Python 开发金融股票量化模型，融合 CNN-LSTM 神经网络与 Informer 注意力机制实现交易趋势预测，完成毕业课题研究"
+      ],
+      "tech": ["Rust", "Solidity", "以太坊", "比特币", "Python", "TensorFlow", "CNN-LSTM"],
       "link": ""
     }
   ],
+
   "education": [
     {
-      "school": "学校名称",
-      "major": "专业名称",
-      "degree": "本科 / 硕士",
-      "period": "2020.09 - 2024.06",
-      "highlights": ["GPA 3.8/4.0（专业前 10%）", "获校级一等奖学金 2 次"]
+      "school": "大连交通大学",
+      "major": "计算机技术",
+      "degree": "硕士研究生 · 工学硕士",
+      "period": "2020.09 - 2023.06",
+      "highlights": []
+    },
+    {
+      "school": "内蒙古科技大学",
+      "major": "计算机科学与技术",
+      "degree": "本科 · 工学学士",
+      "period": "2016.09 - 2020.06",
+      "highlights": []
     }
   ]
 }
