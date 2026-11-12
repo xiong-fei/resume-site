@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "你的名字 · 个人简历",
+    "description": "个人在线简历",
+    "keywords": "简历,resume",
+    "author": "你的名字"
+  },
+  "basic": {
+    "name": "你的昵称",
+    "realName": "你的姓名",
+    "alias": "your-alias",
+    "avatar": "avatar.svg",
+    "status": "在职 · 看机会",
+    "tag": "20XX 届 · 本科",
+    "headline": "前端开发 · 全栈开发 · 技术写作",
+    "contacts": [
+      { "type": "location", "icon": "ti-map-pin", "label": "城市" },
+      { "type": "email", "icon": "ti-mail", "label": "you@example.com", "href": "mailto:you@example.com", "copyable": true },
+      { "type": "wechat", "icon": "ti-brand-wechat", "label": "your-wechat", "copyable": true },
+      { "type": "link", "icon": "ti-brand-github", "label": "GitHub", "href": "https://github.com/yourname" },
+      { "type": "link", "icon": "ti-world", "label": "个人主页", "href": "https://example.com" }
+    ]
+  },
+  "summary": {
+    "title": "个人简介",
+    "content": "这里写 2-4 句话的自我介绍：你是谁、擅长什么、做过什么、想找什么样的机会。建议控制在 120 字以内，突出可量化的成果。"
+  },
+  "skills": [
+    {
+      "category": "前端",
+      "items": ["HTML / CSS / JavaScript", "Vue 3 / React", "Vite / Webpack", "TypeScript"]
+    },
+    {
+      "category": "后端",
+      "items": ["Node.js / Express", "Python / FastAPI", "PostgreSQL / MySQL", "Redis"]
+    },
+    {
+      "category": "工具与协作",
+      "items": ["Git / GitHub Actions", "Docker", "Figma", "Linux"]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "公司名称",
+      "role": "职位名称",
+      "period": "2024.07 - 至今",
+      "location": "城市",
+      "highlights": [
+        "负责 XXX 系统的前端开发，独立完成 12 个页面模块，上线后首月日活 3000+",
+        "重构旧版表单组件，代码量减少 40%，首屏加载从 2.1s 降到 0.8s",
+        "与后端协作设计接口协议，推动 3 个跨部门项目按期交付"
+      ]
+    },
+    {
+      "company": "上一家公司",
+      "role": "实习职位",
+      "period": "2023.09 - 2024.06",
+      "location": "城市",
+      "highlights": [
+        "参与 XXX 功能开发，负责数据看板模块，支撑运营团队日常数据分析",
+        "编写 20+ 个通用组件，复用于 4 个项目，减少重复开发约 30%"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "项目名称",
+      "role": "独立开发",
+      "period": "2025.03 - 2025.06",
+      "description": "一句话说明项目做什么、解决什么问题。",
+      "tech": ["Vue 3", "TypeScript", "Node.js", "SQLite"],
+      "highlights": [
+        "支持 XXX 功能，累计服务 500+ 用户",
+        "开源地址：github.com/xxx/xxx（Star 200+）"
+      ],
+      "link": "https://github.com/yourname/project"
+    },
+    {
+      "name": "第二个项目",
+      "role": "核心开发",
+      "period": "2024.11 - 2025.02",
+      "description": "项目背景与你的贡献。",
+      "tech": ["React", "Tailwind CSS", "Supabase"],
+      "highlights": [
+        "实现 XXX，性能提升 XX%"
+      ],
+      "link": ""
+    }
+  ],
+  "education": [
+    {
+      "school": "学校名称",
+      "major": "专业名称",
+      "degree": "本科 / 硕士",
+      "period": "2020.09 - 2024.06",
+      "highlights": ["GPA 3.8/4.0（专业前 10%）", "获校级一等奖学金 2 次"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>个人简历</title>
+    <meta name="description" content="在线个人简历">
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+
+    <link rel="icon" type="image/svg+xml" href="avatar.svg">
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="resume.css">
+
+    <script>
+        (function () {
+            var saved = localStorage.getItem('resume-theme');
+            if (saved) document.documentElement.setAttribute('data-theme', saved);
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- 工具栏：主题切换 / 打印 -->
+    <div class="toolbar">
+        <button id="themeBtn" class="tool-btn" title="切换主题" aria-label="切换主题">
+            <i class="ti ti-moon"></i>
+        </button>
+        <button id="printBtn" class="tool-btn" title="打印 / 导出 PDF" aria-label="打印">
+            <i class="ti ti-printer"></i>
+        </button>
+    </div>
+
+    <main class="resume-container">
+        <article class="resume-paper" id="resumeApp">
+            <div class="loading">正在加载简历数据…</div>
+        </article>
+    </main>
+
+    <div class="toast" id="toastBox">
+        <i class="ti ti-circle-check"></i>
+        <span id="toastMessage"></span>
+    </div>
+
+    <script src="resume.js" defer></script>
+</body>
+
+</html>
