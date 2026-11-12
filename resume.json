@@ -17,7 +17,8 @@
       { "type": "location", "icon": "ti-map-pin", "label": "北京" },
       { "type": "email", "icon": "ti-mail", "label": "2501652708@qq.com", "href": "mailto:2501652708@qq.com", "copyable": true },
       { "type": "phone", "icon": "ti-phone", "label": "192-8095-2854", "copyable": true },
-      { "type": "link", "icon": "ti-brand-gitee", "label": "Gitee", "href": "https://gitee.com/xiong--fei" }
+      { "type": "link", "icon": "ti-brand-gitee", "label": "Gitee", "href": "https://gitee.com/xiong--fei" },
+      { "type": "link", "icon": "ti-brand-github", "label": "GitHub", "href": "https://github.com/xiong-fei" }
     ]
   },
 

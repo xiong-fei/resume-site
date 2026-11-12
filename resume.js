@@ -231,11 +231,12 @@
         var html = '';
         if (data.basic) html += renderHeader(data.basic);
         html += renderHighlights(data.highlights);
+        // 教育背景上移：放在核心优势之后，首屏附近即可看到
+        html += renderEducation(data.education);
         if (data.summary) html += renderSummary(data.summary);
         html += renderSkills(data.skills);
         html += renderExperiences(data.experiences);
         html += renderProjects(data.projects);
-        html += renderEducation(data.education);
 
         if (!html) {
             app.innerHTML = '<div class="loading">resume.json 里还没有内容。</div>';
